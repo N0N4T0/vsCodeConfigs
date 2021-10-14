@@ -1,0 +1,190 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Omni",
+  "workbench.editorAssociations": {
+      "*.html": "default"
+  },
+  "workbench.editor.enablePreview": false,
+  //Mostrar em qual pasta está o arquivo
+  "workbench.editor.labelFormat": "short",
+
+  "explorer.confirmDelete": false,
+  
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { 
+      "javascript": "javascriptreact",
+      "njk": "html"
+  },
+  
+  //Fonte
+  "editor.fontFamily": "Fira Code",
+  // Combina caracters como >=
+  "editor.fontLigatures": true,
+  //Mostra somente a seleçâo da linha no número
+  "editor.renderLineHighlight": "gutter",
+  //Sugestoes de parametros
+  "editor.parameterHints.enabled": false,
+  //Barra branca lateral direita
+  "editor.rulers": [80, 120],
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+  
+  // I want my default to be 4, but JavaScript/JSON to be 2
+  "editor.tabSize": 4,
+  "[json]": {
+      "editor.tabSize": 2
+  },
+  // This one forces the tab to be **space**
+  "editor.insertSpaces": true,
+
+  //Descompacta as pastas
+  "explorer.compactFolders": false,
+
+  //Ignorar sugestões de extensões
+  "extensions.ignoreRecommendations": true,
+
+  //Evitar correção de importação
+  // "javascript.updateImportsOnFileMove.enabled": "never",
+  // "typescript.updateImportsOnFileMove.enabled": "never",
+
+  //COnfrimação de mover pasta ou deletar
+  "explorer.confirmDragAndDrop": false,
+
+  "[javascript]": {
+      "editor.tabSize": 2,
+      "editor.formatOnSave": false,
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true, 
+      }
+  },
+  "[javascriptreact]": {
+      "editor.formatOnSave": false,
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true, 
+      }
+  },
+  "[typescript]": {
+      "editor.formatOnSave": false,
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true, 
+      }
+  },
+  "[typescriptreact]": {
+      "editor.formatOnSave": false,
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true, 
+      }
+  },
+
+  "files.associations": {
+      "*.html": "html",
+      "*.njk": "njk"
+  },
+
+  "vsicons.associations.files": [
+      { "icon": "nunjucks", "extensions": ["html"], "format": "svg" }
+  ],
+  
+  "liveServer.settings.donotVerifyTags": true,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  
+  "[dart]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+      "editor.rulers": [
+          80
+      ],
+      "editor.selectionHighlight": false,
+      "editor.suggest.snippetsPreventQuickSuggestions": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "onlySnippets",
+      "editor.wordBasedSuggestions": false
+  },
+
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveSassCompile.settings.formats": [
+      {
+          "format": "expanded",
+          "extensionName": ".css",
+          "savePath": null
+      }
+  ],
+
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "tabnine.experimentalAutoImports": true,
+  "auto-close-tag.excludedTags": [
+      "area",
+      "base",
+      "br",
+      "col",
+      "command",
+      "embed",
+      "hr",
+      "img",
+      "input",
+      "keygen",
+      "link",
+      "meta",
+      "param",
+      "source",
+      "track",
+      "wbr",
+      "cfabort",
+      "cfapplication",
+      "cfargument",
+      "cfassociate",
+      "cfbreak",
+      "cfchartdata",
+      "cfcollection",
+      "cfcontent",
+      "cfcontinue",
+      "cfcookie",
+      "cfdirectory",
+      "cfdump",
+      "cfelse",
+      "cfelseif",
+      "cferror",
+      "cfexecute",
+      "cfexit",
+      "cffile",
+      "cfflush",
+      "cfheader",
+      "cfhttpparam",
+      "cfimage",
+      "cfimport",
+      "cfinclude",
+      "cfindex",
+      "cfinput",
+      "cfinvokeargument",
+      "cflocation",
+      "cflog",
+      "cfloginuser",
+      "cflogout",
+      "cfmailparam",
+      "cfobject",
+      "cfobjectcache",
+      "cfparam",
+      "cfpop",
+      "cfprocessingdirective",
+      "cfprocparam",
+      "cfprocresult",
+      "cfproperty",
+      "cfqueryparam",
+      "cfregistry",
+      "cfreportparam",
+      "cfrethrow",
+      "cfreturn",
+      "cfschedule",
+      "cfsearch",
+      "cfset",
+      "cfsetting",
+      "cfthrow",
+      "cfwddx"
+  ]
+}
